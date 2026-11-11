@@ -1,0 +1,15 @@
+# Build artifacts (these are produced by `make`; never commit binaries)
+gateway
+dummy_backend
+loadgen
+*.o
+*.out
+
+# Runtime logs
+*.log
+
+# Private notes — keep out of the public repo
+gateway_interview_prep.md
+
+# OS / editor cruft
+.DS_Store
